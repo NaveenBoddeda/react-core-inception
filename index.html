@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- including the css file in the html file to apply the styles to the elements in the html file -->
+    <link rel="stylesheet" href="/index.css" />
+    <title>React</title>
+  </head>
+  <body>
+    <!-- // Basic html code -->
+    <div id="root">
+      <!-- <h1>Hello World!</h1> -->
+    </div>
+    <!-- // Basic JavaScript code -->
+    <!-- <script>
+      const root = document.getElementById("root");
+      const heading = document.createElement("h1");
+      heading.innerHTML = "Hello World! from JavaScript";
+      root.appendChild(heading);
+    </script> -->
+    <!-- Basic React code, how to import react essentials in the code by using cdn urls -->
+    <!-- CDS Urls for React and ReactDOM need to be added in the code to use React in the code -->
+    <!-- react.development.js is the development version of React, which includes helpful warnings and error messages to assist developers during the development process. It is not optimized for production use and should not be used in a production environment.
+        react-dom.development.js is the development version of ReactDOM, which provides the necessary functionality to render React components in the browser. Like react.development.js, it includes helpful warnings and error messages for developers during development and should not be used in production.    -->
+    <!-- React dom is used for accessing the DOM -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="/App.js"></script>
+  </body>
+</html>
