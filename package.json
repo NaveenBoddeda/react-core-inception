@@ -1,0 +1,25 @@
+{
+  "name": "react-core-inception",
+  "version": "1.0.0",
+  "description": "setup react project without inbuild packages",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaveenBoddeda/react-core-inception.git"
+  },
+  "author": "Naveen Boddeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaveenBoddeda/react-core-inception/issues"
+  },
+  "homepage": "https://github.com/NaveenBoddeda/react-core-inception#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
