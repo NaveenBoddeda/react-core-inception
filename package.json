@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "setup react project without inbuild packages",
   "scripts": {
+    "start": "parcel index.html",
+    "prepublishOnly": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
